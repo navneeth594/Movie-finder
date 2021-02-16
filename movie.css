@@ -1,0 +1,129 @@
+body{
+	margin:0px;
+}
+
+
+.header{
+	position:fixed;
+	left:0px;
+	right:0px;
+	height: 100px;
+	width:100%;
+	background-color: #0b344c;
+	z-index: 100;
+}
+
+.logo-text{
+	height: 100%;
+	margin: 10px;
+	margin-top: 28px;
+	float: left;
+	display: block;
+	font-style: italic;
+	font-size: 30px;
+	font-family: "cursive";
+	font-weight: bold;
+	color: red;
+
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	color: red;
+	font-size: 25px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	padding-right: 40px;
+	padding-top: 5%;
+	display: inline-block;
+}
+
+.site-content{
+	position:absolute;
+	top:78px;
+	width: 100%
+}
+.image-content{
+	background-image: url("hollywood2.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:650px;
+	
+	text-align: center;
+}
+.search-bar{
+	width:100%;
+	position: absolute;
+	top:375px;
+	left: 50px;
+}
+.words{
+	text-align: center;
+	font-size: 30px;
+	color: #38db12;
+	font-family: cursive;
+	font-style: italic;
+}
+
+#input{
+	width: 50%;
+	height:30px;
+	border-radius: 10px;
+}
+
+.submit{
+	height: 35px;
+	border-radius: 10px;
+}
+.mm-img{
+	padding-left:10px;
+	display: inline-block;
+}
+.movie-content{
+	background-image: url("back.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width:75%;
+	margin:10px;
+	border:3px solid green;
+	margin: auto;
+}
+
+.detail-content{
+	width:45%;
+	display:inline-block;
+	position: absolute;
+	bottom: 50px;
+	left:600px;
+	word-wrap: break-word;
+}
+.detail-content p{
+	color: #e63a19;
+	font-weight: bold;
+	font-size: 18px;
+}
+.detail-content span{
+	color:black;
+	font-family: cursive;
+	font-style: italic;
+}
+
+.footer {
+	background-color: #272727;
+	color: black;
+	font-size: 20px;
+	height: 50px;
+	text-align: center;
+
+}
+
+.footer p{
+	margin:auto;
+	padding-top: 15px;
+	color : white;
+}
